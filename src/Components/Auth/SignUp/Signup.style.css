@@ -8,16 +8,18 @@
  
     
 .signup-box{
-    width: 320;
-    height:600px;
+    height: 621px;
     background: rgba(0,0,0,0.5);
     color: #fff;
     top: 138px;
-    left: 384px;
+    left: 386px;
+    /* bottom: 132px; */
     position: absolute;
-
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 3px 55px 11px 44px;
+    /* margin: 1px; */
+    /* margin-right: -99px; */
+   
 }
 
 h1{
@@ -32,6 +34,13 @@ h1{
     padding: 0;
     font-weight: bold;
 }
+
+.signup-box input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    margin: -61px;
+}
+
 .signup-box input{
     width: 100%;
     margin-bottom: 20px;
